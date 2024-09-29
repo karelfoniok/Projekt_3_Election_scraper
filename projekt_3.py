@@ -1,5 +1,5 @@
 """
-Project3.py: třetí projekt do Engeto Online Python Akademie
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
 
 author: Karel Foniok
 email: karel.foniok@gmail.com
