@@ -23,14 +23,14 @@ Výsledek se stáhne jako soubor ve formátu .csv
 
 ## Ukázka projektu
 Výsledky hlasování pro okres Karviná:
-1. argument: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103
+1. argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103
 2. argument: karvina.csv
 
 ## Spuštění programu
-    python projekt3_election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103' 'karvina.csv'
+    python projekt3_election_scraper.py 'https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103' 'karvina.csv'
 
 ## Průběh stahování
-    Dowloading data from url: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103
+    Dowloading data from url: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103
     Saving to file: karvina.csv
     Closing election scraper
 
