@@ -11,13 +11,13 @@ Pro instalaci vytvořte nové virtuální prostředí a s nainstalovaným manaž
     $ pip install -r requirements  # nainstalují se knihovny
 
 ## Spuštění projektu
-Pro spuštění souboru projekt_3_election_scraper jsou nutné v příkazovém řádku zadat dva povinné argumenty:
+Pro spuštění souboru projekt_3 jsou nutné v příkazovém řádku zadat dva povinné argumenty:
 1. url územního celku
 2. název souboru CSV, který se vygeneruje
 
 Spuštění souboru v příkazovém řádku vypadá následovně:
 
-    python projekt_3_election_scraper.py <odkaz-územního-celku> <výsledný-soubor>
+    python projekt_3.py <odkaz-územního-celku> <výsledný-soubor>
 
 Výsledek se stáhne jako soubor ve formátu .csv
 
@@ -27,7 +27,7 @@ Výsledky hlasování pro okres Karviná:
 2. argument: karvina.csv
 
 ## Spuštění programu
-    python projekt3_election_scraper.py 'https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103' 'karvina.csv'
+    python projekt_3.py 'https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103' 'karvina.csv'
 
 ## Průběh stahování
     Dowloading data from url: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103
